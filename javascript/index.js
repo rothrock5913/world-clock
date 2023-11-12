@@ -24,7 +24,7 @@ function updateTime() {
       "h:mm:ss [<small>]A[</small>]"
     );
   }
-  
+
   // Paris
   let parisElement = document.querySelector("#paris");
   if (parisElement) {
@@ -57,6 +57,7 @@ function updateCity(event) {
     "A"
   )}</small></div>
   </div>
+  <a href="index.html">All Cities</a>
   `;
 }
 
